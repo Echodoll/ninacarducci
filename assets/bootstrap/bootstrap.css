@@ -262,7 +262,7 @@ h3, .h3 {
 }
 
 .w-100 {
-  width: 100% !important;
+max-width: 100%;
 }
 .my-4 {
   margin-top: 1.5rem !important;
