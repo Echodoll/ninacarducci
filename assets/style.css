@@ -1,6 +1,5 @@
 body {
 	max-width: 1920px;
-	margin: auto;
 }
 * {
 	font-family: 'Inter';
@@ -126,16 +125,6 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
-.mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
-}
-
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -175,6 +164,7 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
+	margin: 30px;
 
 }
 
@@ -351,6 +341,10 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.carrousel-item img {
+		width: 375px;
+	
 	}
 }
 
